@@ -1,0 +1,19 @@
+# URL to test success
+
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/addMovie
+http://127.0.0.1:5000/search/Baby/Evening
+http://127.0.0.1:5000/search/Raaz/Morning
+http://127.0.0.1:5000/search/20
+http://127.0.0.1:5000/deleteMovie/Guru
+http://127.0.0.1:5000/deleteMovie/Raaz
+
+
+# URL to test failures
+
+http://127.0.0.1:5000/search/Baby/Night
+http://127.0.0.1:5000/deleteMovie/Guru  ###After Guru movie is already deleted
+
+
+NOTE:
+All .html files are stored under /templates/*.html

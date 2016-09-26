@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Available</title>
+</head>
+<body>
+    {% for movie_name, days in movie_avail.items() %}
+        <h6><li>{{ movie_name }} is showing for next : {{ days }}</li></h6>
+    {% endfor %}
+</body>
+</html>
